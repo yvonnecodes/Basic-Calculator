@@ -1,7 +1,7 @@
 # Basic Calculator :alien:
 
 
-<br>
+
 ![](calculator.gif)
 
 <br>
