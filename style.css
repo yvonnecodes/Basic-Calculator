@@ -1,0 +1,126 @@
+/* =======================
+  General Element Styling
+============================ */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(mathBg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+ width: 1000px;
+ height: 800px;
+ background:  rgb(60, 60, 60);
+ background: rgba(60, 60, 60, 0.4);
+ margin: 0 auto;
+ margin-top: 10%;
+ margin-bottom: 10%;
+
+}
+
+/* =======================
+    Calculator Styling
+============================ */
+/*background of Calculator */
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #e5e5e5;
+    margin: 0 auto;
+    top: 15%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+   position: relative;
+   border-radius: 10px;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+/*Output Styling */
+#answer {
+    height: 120px;
+}
+
+#view {
+ text-align: right;
+ height: 20px;
+ margin: 0 20px;
+ padding-top: 20px;
+ font-size: 20px;
+ font-weight: 100;
+ color: #212529;
+}
+
+#output {
+text-align: right;
+height: 60px;
+margin: 30px 30px;
+font-size: 30px;
+font-weight: 500;
+color: #212529
+}
+
+/*Keyboard Styling */
+.numbers {
+    height: 400px
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty {
+ background-color: #e5e5e5;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active {
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline:0;
+}
+
+/*button color */
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #9c89b8;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #f0a6ca;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #ffbf69;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #d7b9d5;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9bc1bc;
+}
